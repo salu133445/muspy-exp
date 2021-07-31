@@ -1,0 +1,31 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+joblib = "*"
+jsonschema = "*"
+music21 = "*"
+pretty-midi = "*"
+pypianoroll = "*"
+requests = "*"
+torch = "*"
+tqdm = "*"
+xmlschema = "*"
+yamale = "*"
+ipykernel = "*"
+jupyter = "*"
+matplotlib = "*"
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+flake8-docstrings = "*"
+mypy = "*"
+pylint = "*"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+
+[pipenv]
+allow_prereleases = true
